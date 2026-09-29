@@ -7,11 +7,11 @@ document.getElementById('mysubmit').onclick = function () {
 };
 let username;
 */
+let username;
 
 document.getElementById('mysubmit').onclick = function () {
   username = document.getElementById('mytext').value;
 
-  if (username.toLowerCase() === 'leyla') {
     document.getElementById('myh1').textContent = `Hello ${username}, do you want to be friends?`;
     document.getElementById('mytext').style.display = 'none';
     document.getElementById('mysubmit').style.display = 'none';

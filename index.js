@@ -36,10 +36,14 @@ document.getElementById('declineBtn').onclick = function () {
 };
 
 
-  } else {
+  } 
+};
+/*
+  else {
     document.getElementById('myh1').textContent = 'WRONG USERNAME';
     document.getElementById('mytext').style.display = 'none';
     document.getElementById('mysubmit').style.display = 'none';
     document.getElementById('label').style.display = 'none';
   }
 };
+*/

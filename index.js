@@ -7,8 +7,8 @@ document.getElementById('mysubmit').onclick = function () {
 };
 let username;
 */
-let username;
 
+  if (username.toLowerCase() === 'leyla') {
 document.getElementById('mysubmit').onclick = function () {
   username = document.getElementById('mytext').value;
 
@@ -38,12 +38,12 @@ document.getElementById('declineBtn').onclick = function () {
 
   } 
 };
-/*
+
   else {
     document.getElementById('myh1').textContent = 'WRONG USERNAME';
     document.getElementById('mytext').style.display = 'none';
     document.getElementById('mysubmit').style.display = 'none';
     document.getElementById('label').style.display = 'none';
   }
-};
-*/
+
+

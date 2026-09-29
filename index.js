@@ -7,8 +7,8 @@ document.getElementById('mysubmit').onclick = function () {
 };
 let username;
 */
-
-  if (username.toLowerCase() === 'leyla') {
+let username;
+  
 document.getElementById('mysubmit').onclick = function () {
   username = document.getElementById('mytext').value;
 
@@ -37,8 +37,8 @@ document.getElementById('declineBtn').onclick = function () {
 
 
   } 
-};
 
+/*};
   else {
     document.getElementById('myh1').textContent = 'WRONG USERNAME';
     document.getElementById('mytext').style.display = 'none';
@@ -46,4 +46,4 @@ document.getElementById('declineBtn').onclick = function () {
     document.getElementById('label').style.display = 'none';
   }
 
-
+*/
